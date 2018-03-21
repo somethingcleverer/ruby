@@ -1,0 +1,5 @@
+def owo(text)
+text_array = [text]
+text.each do |letter|
+puts letter == "r" || "l" ? "w" : letter
+end
