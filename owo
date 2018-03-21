@@ -1,5 +1,17 @@
 def owo(text)
-text_array = [text]
-text.each do |letter|
-puts letter == "r" || "l" ? "w" : letter
+text_array = [text.downcase]
+text_array.each do |letter|
+puts letter == "r" ? "w" : letter
+puts letter == "l" ? "w" : letter
+end
+def uwu(text)
+text_array = [text.downcase]
+text_array.each(" ") do |word|
+puts word == "this" ? "dis" : word
+puts word == "the" ? "da" : word
+puts word == "then" ? "den" : word
+puts word == "them" ? "dem" : word
+puts word == "with" ? "wif" : word
+end
+def filter(text)
 end
